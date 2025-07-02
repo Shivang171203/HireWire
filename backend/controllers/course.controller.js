@@ -140,7 +140,7 @@ import config from "../config.js";
 
 const stripe = new Stripe(config.STRIPE_SECRET_KEY);
 
-console.log(config.STRIPE_SECRET_KEY);
+
 
 
 export const buyCourses = async (req, res) => {
